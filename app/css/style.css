@@ -1,0 +1,59 @@
+body {
+	background-color: #eee;
+}
+
+.container {
+	width: 80%;
+	height: 100%;
+
+}
+
+.content {
+	background-color: #fff;
+	border: 1px solid #111;
+	padding: 20px;
+}
+
+.labeladd {
+	text-align: right;
+}
+
+textarea.form-control {
+	width: 94%;
+}
+
+form {
+	background-color: #eee;
+	padding: 20px;
+	box-shadow: 1px 1px 1px 1px #888888;
+	margin-top: 30px;
+}
+
+.labelitem {
+	border-bottom: 1px solid #666666;
+}
+
+.itemlist {
+	padding: 10px;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+td.delete {
+	text-align: right;
+}
+
+.number {
+	background-color: lightyellow;
+	margin-right: 15px;
+	color: black
+}
+
+tr {
+	border-bottom: 1px dashed #666666;
+}
+
+.table .value{
+	color: orange;
+}
+
