@@ -1,0 +1,11 @@
+<table class="table table-condensed" id="table">
+	<tr ng-repeat="singleitem in main.items">
+		<td colspan="2">
+			<span class="number">{{main.items.indexOf(singleitem)+1}}.</span>
+			<span class="value">{{singleitem}}</span>
+		</td>
+		<td class="delete">
+			<a href="" ng-click="main.deleteItem($index)">delete</a>
+		</td>
+	</tr>
+</table>
