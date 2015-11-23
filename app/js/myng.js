@@ -13,10 +13,6 @@ myApp.controller('MainController', function($http) {
 		
 		$("#json").val(JSON.stringify(self.items));	
 	});
-	
-	
-	
-	
 
 	this.addItem = function() {
 		this.items.push($('#item').val());
@@ -32,7 +28,6 @@ myApp.controller('MainController', function($http) {
 		
 	};
 	this.deleteItem =function(i) {
-		console.log(i);
 		self.items.splice(i, 1);
 	};
 	
