@@ -27,8 +27,10 @@ myApp.controller('MainController', function($http) {
 		self.items = val.split(",");
 		
 	};
+	
 	this.deleteItem =function(i) {
 		self.items.splice(i, 1);
+		$("#json").val(JSON.stringify(self.items));	
 	};
 	
 	

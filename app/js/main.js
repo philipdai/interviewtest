@@ -80,11 +80,9 @@ $('#loadjson').click(function(e) {
 		var str = str + "<tr><td colspan='2'><span class='number'>" + (key+1) + ".</span><span class='value'>"
 						+ items[key] + "</span></td><td class='delete'><a href=''>delete</a></td></tr>";
 	}
-	
-	
+		
 	$("#table").empty();
 	$("#table").append(str);	
 	$('#item').val("");
-	
 	
 });
